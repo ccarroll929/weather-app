@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    font-size: 24px; 
+    text-align: center; 
+    font-weight: bold;
+    color: white; 
+    background-color: rgb(97, 188, 224);
+    margin:0;
+    padding: 5px; 
+}
+li {
+    list-style-type:none; 
+    border-style: solid;
+    border-color: rgb(161, 160, 160);
+    border-width: 2px;
+    margin: 1px;
+    background-color: rgb(207, 203, 203)
+}
+.search-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center; 
+    float: left; 
+    margin: 1em; 
+}
+
+button {
+    font-size: larger;
+    background-color: skyblue;
+    color: white;
+    border: none; 
+    padding: 5px;
+}
+
+#current-weather {
+    display: flex;
+    flex-flow: column wrap; 
+    border-style: solid;
+    border-width: 1px; 
+    margin: 2em; 
+    padding: 1em;
+}
+
+.weather-forecast {
+    display: flex; 
+    flex-direction: row; 
+    padding: 1em; 
+    line-height: 2; 
+}
+
+card {
+    border-style:solid; 
+    border-width: 1px; 
+    background-color: rgb(1, 1, 61); 
+    color: white; 
+    margin: 1em; 
+    padding: 1em;  
+    font-size: small; 
+
+}
