@@ -11,9 +11,10 @@
     <title>5 Day Weather Forecast</title>
 </head>
 <body>
+    <header>Weather Dashboard</header>
    <aside>
     <div class="search-container" id="search-container">
-        <h2>Search for a City:</h2>
+        <h3>Search for a City</h3>
         <div class="search-container" id="search-box">Enter city here</div>
         <button class="search-btn">Search</button>
     <ul class="search-container" id="search-history"></ul>
@@ -26,50 +27,61 @@
    </aside>
 
    <div class="current-weather" id="current-weather">
-        <div class="current-weather" id="city-and-date">City/Todays Date</div>
+        <div class="current-weather" id="city">City</div>
+        <div class="current-weather" id="time">Time</div>
+        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
         <div class="current-weather" id="current-temp">Temperature:</div>
         <div class="current-weather" id="current-wind">Wind:</div>
         <div class="current-weather" id="current-humidity">Humidity:</div>
    </div>
 
-   <h3>5-Day Forecast</h3>
    <div class="weather-forecast" id="weather-forecast">
-    <card>
-    <div class="weather-box" id="date">Date 1</div>
-        <img src="" alt="weather icon" class="w-icon">
+    <div>
+    <div class="weather-box">
+    <div id="forecast-date">Date 1</div>
+        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
         <div class="temp">Temp:</div>
         <div class="wind">Wind:</div>
         <div class="humidity">Humidity:</div>
-    </card>
-    <card>
-    <div id="date">Date 2</div>
-        <img src="" alt="weather icon" class="w-icon">
+    </div>
+    </div>
+    <div>
+        <div class="weather-box">
+    <div id="forecast-date">Date 2</div>
+        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
         <div class="temp">Temp:</div>
         <div class="wind">Wind:</div>
         <div class="humidity">Humidity:</div>
-    </card>
-    <card>
-    <div class="weather-box" id="date">Date 3</div>
-        <img src="" alt="weather icon" class="w-icon">
+    </div>
+</div>
+    <div>
+        <div class="weather-box">
+    <div id="forecast-date">Date 3</div>
+        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
         <div class="temp">Temp:</div>
         <div class="wind">Wind:</div>
         <div class="humidity">Humidity:</div>
-    </card>
-    <card>
-    <div class="weather-box" id="date">Date 4</div>
-        <img src="" alt="weather icon" class="w-icon">
+    </div>
+</div>
+    <div>
+        <div class="weather-box">
+    <div id="forecast-date">Date 4</div>
+        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
         <div class="temp">Temp:</div>
         <div class="wind">Wind:</div>
         <div class="humidity">Humidity:</div>
-    </card>
-    <card>
-    <div class="weather-box" id="date">Date 5</div>
-        <img src="" alt="weather icon" class="w-icon">
+    </div>
+</div>
+    <div>
+    <div class="weather-box">
+    <div id="forecast-date">Date 5</div>
+        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
         <div class="temp">Temp:</div>
         <div class="wind">Wind:</div>
         <div class="humidity">Humidity:</div> 
-    </card>
     </div>
+    </div>
+</div>
    </div>
 
    <script src="assets/js/script.js"></script>
