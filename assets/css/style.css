@@ -5,79 +5,56 @@
 }
 
 header {
-    font-size: 24px; 
-    text-align: center; 
-    font-weight: bold;
+    font-size: 32px;
     color: white; 
     background-color: rgb(97, 188, 224);
-    margin:0;
     padding: 5px; 
-}
-li {
-    list-style-type:none; 
-    border-style: solid;
-    border-color: rgb(161, 160, 160);
-    border-width: 2px;
-    margin: 1px;
-    background-color: rgb(207, 203, 203)
-}
-.search-container {
-    display: flex;
-    flex-flow: column wrap;
-    align-content: center; 
-    float: left; 
-    margin: 15px;  
 }
 
 button {
-    font-size: large;
     cursor: pointer; 
-    background-color: skyblue;
-    color: white;
-    border: none; 
-    padding: 5px;
-    margin: 0 35px; 
 }
 
-button:hover {
-    background-color:rgb(1, 1, 61);
-}
 
-#current-weather {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    justify-content: center; 
-    height: 250px; 
-    margin: 50px 150px 10px 250px;; 
-    background:rgb(1, 1, 61);
-    color: white; 
-    border-radius: 40px; 
-    font-weight: bold; 
-    padding: 5px 20px; 
-}
 
-.weather-forecast {
+#forecast {
     display: flex; 
     flex-direction: row;
     align-items: center;
-    justify-content: center; 
-    margin: 75px 20px 20px 20px; 
+    justify-content: center;  
     padding: 15px; 
-    background:rgb(1, 1, 61);
     color: white; 
     border-radius: 20px; 
 }
 
-.weather-box {
-    border: skyblue solid; 
+.card {
+    display: flex; 
+    justify-content: center;
+    color: white; 
     background:rgb(1, 1, 61);
-    margin: 5px; 
     padding: 5px; 
+    margin: 5px; 
     border-radius: 10px; 
 }
 
-#forecast-date {
-    text-align: center; 
-    font-weight: bold; 
+.card-title{
+    color: white; 
 }
+
+@media screen and (max-width: 992px) {
+    body {
+      flex-wrap: column wrap; 
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    body {
+        flex-wrap: column wrap;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    body {
+        flex-wrap: column wrap; 
+    }
+  }
